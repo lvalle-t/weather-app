@@ -1,0 +1,42 @@
+{"coord": {
+    "lon":-96.7836,
+    "lat":32.7668
+},
+"weather": [
+    {
+    "id":800,
+    "main":"Clear",
+    "description":"clear sky",
+    "icon":"01n"
+    }
+],
+"base":"stations",    
+"main":{
+    "temp":82.36,
+    "feels_like":83.84,
+    "temp_min":78.22,
+    "temp_max":85.73,
+    "pressure":1016,
+    "humidity":54
+},
+"visibility":10000,
+"wind":{
+    "speed":9.22,
+    "deg":50
+},
+"clouds":{
+    "all":0
+},
+"dt":1690082809,
+"sys":{
+    "type":2,
+    "id":2075302,
+    "country":"US",
+    "sunrise":1690025641,
+    "sunset":1690075967
+},
+"timezone":-18000,
+"id":4684904,
+"name":"Dallas",
+"cod":200
+}
