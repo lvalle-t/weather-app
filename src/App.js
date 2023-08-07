@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-const API_KEY = process.env.REACT_APP_API_KEY
-
+const API_KEY = process.env.REACT_APP_API_KEY;
+// console.log(process.env.REACT_APP_API_KEY)
 
 function App() {
   const [data, setData] = useState({})
@@ -123,9 +123,9 @@ function App() {
                 {forecast.main ? (
                   // chnage to min and max or chnage to temp and feels like?
                   <>
-                    {unit === 'C' ? Math.round((forecast.main.temp - 32) / 1.8) : Math.round(forecast.main.temp)}°{unit}
-                    <br />
-                    {unit === 'C' ? Math.round((forecast.main.feels_like - 32) / 1.8) : Math.round(forecast.main.feels_like)}°{unit}
+                  {unit === 'C' ? Math.round((forecast.main.temp - 32) / 1.8) : Math.round(forecast.main.temp)}°{unit}
+                  <br />
+                  {unit === 'C' ? Math.round((forecast.main.feels_like - 32) / 1.8) : Math.round(forecast.main.feels_like)}°{unit}
                   </>
                 ) : null}
               </div>
